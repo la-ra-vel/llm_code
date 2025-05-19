@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invoice Template</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .invoice-header {
+            text-align: center;
+        }
+        .invoice-table {
+            margin-top: 20px;
+        }
+        .invoice-table th, .invoice-table td {
+            text-align: center;
+        }
+        .total-row {
+            font-weight: bold;
+        }
+        .remarks {
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <table class="table">
+        <tr>
+            <td colspan="3" class="invoice-header">
+                <h5>ADVOCATE</h5>
+            </td>
+        </tr>
+        <tr>
+            <td style="width: 30%;">
+                <p>B.S.L., LL.B.,<br>ADVOCATE</p>
+            </td>
+            <td style="width: 40%; text-align: center;">
+                <img src="https://via.placeholder.com/100" alt="Logo">
+            </td>
+            <td style="width: 30%;">
+                <p>Office/AT - Near Bank of<br>Mob: *********<br>E-mail: *********</p>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <p>To,<br>Mr. Rushank S<br>0,<br>Pincode-421201</p>
+            </td>
+            <td class="text-end">
+                <p>Date: 02-08-2024<br>Invoice No: 2401-2</p>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="3" class="text-center my-3">
+                <h6>Bill of Legal Charge</h6>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="3">
+                <table class="table table-bordered invoice-table">
+                    <thead>
+                        <tr>
+                            <th>Sr. No.</th>
+                            <th>Particulars</th>
+                            <th>Amount</th>
+                            <th class="remarks">Remarks</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Filing New Case</td>
+                            <td>Rs. 10000/-</td>
+                            <td>Rs. 4500 Received</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Taking cross of Plaintiff / Defendant</td>
+                            <td>Rs. 1000/-</td>
+                            <td>Rs. 1000 Received</td>
+                        </tr>
+                        <tr class="total-row">
+                            <td colspan="3">Total Rs. 11000/- (out of which Rs. 5500/- Received)</td>
+                            <td></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td>Location</td>
+            <td colspan="2" class="text-end">Lawyer Signature</td>
+        </tr>
+    </table>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
