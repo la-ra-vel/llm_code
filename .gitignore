@@ -1,22 +1,25 @@
-# Laravel related
-/vendor/
-node_modules/
+<<<<<<< HEAD
+node_modules
+=======
+/.phpunit.cache
+/node_modules
+/public/build
+/public/hot
+/public/storage
+/storage/*.key
+/vendor
 .env
+.env.backup
+.env.production
+.phpactor.json
 .phpunit.result.cache
 Homestead.json
 Homestead.yaml
-/public/storage
-/storage/*.key
-/storage/logs/
-storage/framework/cache/data
-storage/framework/sessions
-storage/framework/views
+auth.json
+npm-debug.log
+yarn-error.log
+/.fleet
+/.idea
+/.vscode
 
-# IDE/OS related
-*.swp
-*.swo
-.idea/
-*.sublime-project
-*.sublime-workspace
-.DS_Store
-Thumbs.db
+>>>>>>> 068b26836a8a98553ce0240245b6f115d57c16a0
